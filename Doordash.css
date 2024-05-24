@@ -1,0 +1,398 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   box-sizing: border-box;
+}
+
+
+img.logo {
+    
+    margin: 0 auto;
+    display:block ;
+    padding-top: auto;   
+}
+
+
+header {
+    position: relative;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    color: white;
+    height: 40rem;   
+}
+
+
+h1.resturant {
+    text-align: center;
+    padding-top: 5.625rem;
+    font-size: 2.5rem;  
+} 
+
+form{
+    text-align: center;
+    margin-top: 1.875rem;
+}
+#address {
+    border: none;
+    height:3.125rem;
+    width: 21.875rem;
+    text-align: center;
+    border-radius: 1.563rem;
+    font-size: 1.125rem;
+}
+
+#saved {
+    margin-top: 0.375rem;
+    border: none;
+    height:2.813rem;
+    width: 12.5rem;
+    text-align: center;
+    border-radius: 1.563rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.container {
+    position: relative;
+    width: auto;
+    background-color:white;
+    height: 75rem;  
+}
+
+.element1 {
+    position: absolute;
+    top: 6.25rem;
+    left: 7.5rem;
+    font-size: 1.25rem; 
+}
+
+.element2 {
+    position: absolute;
+    top: 6.25rem;
+    left: 34.375rem;
+    font-size: 1.25rem;  
+}
+
+
+.element3 {
+    position: absolute;
+    top: 4.375rem;
+    right: 9.375rem;
+    font-size: 1.063rem;  
+}
+
+
+.element4 {
+    position: absolute;
+    top: 50rem;
+    left: 5.938rem;
+    font-size: 1.125rem;   
+}
+
+
+.element5 {
+    position: absolute;
+    z-index:4;
+    top: 41.875rem;
+    right: 5.625rem;   
+}
+
+
+.dasher {
+    text-align: center;
+    margin-right: 3.125rem;
+}
+
+
+span {
+    color: rgb(252, 33, 33);
+    font-weight: bold;
+}
+
+
+#section {
+    position: relative;
+    background-color: rgba(255, 192, 203, 0.2);
+    width: auto;
+    height: 40.625rem;
+} 
+
+
+div.sec1 {
+    position: absolute;
+    top: 12.5rem;
+    left: 56.25rem;
+    font-size: 1.063rem;  
+}
+
+
+div.sec2 {
+    position: absolute;
+    top: 6.25rem;
+    left: 4.375rem;
+}
+
+
+#friuts {
+    background-image: url('images/background2.jpg');
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    height:40.625rem; 
+}
+
+
+
+.fruit1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 10.625rem;
+    font-weight: bold;
+    height:40.625rem;
+}
+
+
+#bag {
+    position: relative;
+    width: auto;
+    height: 37.5rem;
+}
+
+
+.bg1 {
+    position: absolute;
+    top:4.375rem;
+    right: 6.25rem;
+    
+}
+
+
+.bg2 {
+    position: absolute;
+    top: 13.75rem;
+    left:5rem;
+    font-size:1.25rem;
+}
+
+
+#delivery {
+    position: relative;
+    background-color: rgba(255, 192, 203, 0.2);
+    width: auto;
+    height:122.5rem;
+}
+
+
+#gift {
+    text-align: center;
+    padding-top:3.75rem;
+    font-size:2.5rem;
+}
+
+div.img1 {
+    position: absolute;
+    top:13.75rem;
+    left: 5.625rem;
+}
+
+
+div.img2 {
+    position: absolute;
+    top: 13.75rem;
+    right:5.625rem;
+}
+
+
+div.img3 {
+    position: absolute;
+    top: 68.75rem;
+    left:5.625rem;
+}
+
+
+div.img4{
+    position: absolute;
+    top:68.75rem;
+    right: 5.625rem;
+}
+
+
+.img1text {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+.imgp1 {
+    text-align:center ;
+    font-size: 0.938rem;
+}
+
+
+button.bg {
+    text-align: center;
+    margin-left: 0.625rem;
+    padding: 0.625rem;
+    background-color: rgb(252, 33, 33);
+    color: antiquewhite;
+    font-weight: bold;
+    font-size:0.938rem;
+    border: none;
+    border-radius:1.25rem;
+}
+
+
+button {
+    text-align: center;
+    margin-left:13.125rem;
+    align-content: center;
+    padding: 0.625rem;
+    background-color: rgb(252, 33, 33);
+    color: antiquewhite;
+    font-weight: bold;
+    font-size:0.938rem;
+    border: none;
+    border-radius:1.25rem;
+}
+
+
+#business {
+    position: relative;
+    width: auto;
+    height: 48.75rem;
+}
+
+
+div.car1 {
+    position: absolute;
+    z-index: 4;
+    top: 15.625rem;
+    right:5.625rem;
+}
+
+
+div.car2 {
+    position: absolute;
+    top: 25rem;
+    left: 5.625rem;
+    font-size: 1.25rem;
+}
+
+
+#pinkdiv {
+    position: relative;
+    background-color:rgba(255, 192, 203, 0.2) ;
+    width: auto;
+    height: 38.75rem;
+}
+
+
+div.pink1 {
+    position: absolute;
+    top: 6.25rem;
+    left: 5rem;
+}
+
+
+div.pink2 {
+    position: absolute;
+    top: 18.75rem;
+    right: 5rem;
+    font-size: 1.25rem;
+}
+
+table {
+    width: 100%;
+    margin-top: 2.5rem;
+   
+}
+
+tr, td {
+    padding: 0.625rem;
+    font-size: 0.938rem;
+    text-align: center;
+    font-weight:31.25rem ;
+}
+
+th {
+    margin-left: 0.313rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom:1.25rem;   
+}
+
+footer {background-color: black;
+}
+
+table.lasttable {
+    width:aut0;
+}
+
+.tb{
+    padding:0.625rem;
+    font-size:0.938rem;
+    text-align: center;
+    font-weight:31.25rem ;
+    color: #ddd;
+}
+
+.row {
+    padding: 0.625rem;
+    font-size: 0.938rem;
+    text-align: center;
+    font-weight:31.25rem ; 
+}
+
+caption {
+    color: #ddd;
+    padding: 2.188rem;
+}
+
+
+h5{
+    color: #ddd;
+    padding-top: 1.875rem;
+    text-align: center;
+    padding-bottom: 1.875rem;
+}
+
+
+img.doorlogo {
+    margin:0 auto;
+    display: block;
+}
+
+a:link, a:visited {
+    background-color:rgb(252, 33, 33) ;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.813rem;
+    border-radius: 1.875rem;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    background-color:rgb(196, 5, 5) ;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.813rem;
+    border-radius: 1.875rem;
+    font-size: medium;
+    font-weight: bold;
+}
