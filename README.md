@@ -14,7 +14,7 @@ This project was created to demonstrate my understanding of HTML and CSS concept
 - Structuring content with HTML
 - Styling and layout with CSS
 - Desktop-only design considerations
-- 
+
 **Credits**
 - Original design and concept by DoorDash
 - Clone and recreated by Bridget Odunola Adeyemi for learning purposes.
