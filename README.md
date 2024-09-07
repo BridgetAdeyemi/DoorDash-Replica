@@ -20,5 +20,5 @@ This project was created to demonstrate my understanding of HTML and CSS concept
 - Clone and recreated by Bridget Odunola Adeyemi for learning purposes.
   
 **Live Demo**     
-Checkout the live version of the project here
+Checkout the live version of the project here  https://bridgetadeyemi.github.io/DoorDash-Replica/
 
